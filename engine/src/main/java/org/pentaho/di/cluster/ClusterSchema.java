@@ -133,7 +133,7 @@ public class ClusterSchema extends ChangedFlag implements Cloneable, SharedObjec
     this.socketsCompressed = clusterSchema.socketsCompressed;
     this.socketsFlushInterval = clusterSchema.socketsFlushInterval;
     this.dynamic = clusterSchema.dynamic;
-
+    // fierji
     this.slaveServers.clear();
     this.slaveServers.addAll( clusterSchema.slaveServers ); // no clone() of the slave server please!
 
